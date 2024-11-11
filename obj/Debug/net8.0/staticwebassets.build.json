@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "9xNmYUD2mzWa/lxba4tfVYbF5ThJ/X5hbf4cpoB+t1c=",
+  "Source": "ChatApp",
+  "BasePath": "_content/ChatApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ChatApp\\wwwroot",
+      "Source": "ChatApp",
+      "ContentRoot": "C:\\LabFiles\\ChatGPT\\ChatApp_CSharp_Enhanced\\ChatApp\\wwwroot\\",
+      "BasePath": "_content/ChatApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\LabFiles\\ChatGPT\\ChatApp_CSharp_Enhanced\\ChatApp\\wwwroot\\css\\style.css",
+      "SourceId": "ChatApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\LabFiles\\ChatGPT\\ChatApp_CSharp_Enhanced\\ChatApp\\wwwroot\\",
+      "BasePath": "_content/ChatApp",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\LabFiles\\ChatGPT\\ChatApp_CSharp_Enhanced\\ChatApp\\wwwroot\\index.html",
+      "SourceId": "ChatApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\LabFiles\\ChatGPT\\ChatApp_CSharp_Enhanced\\ChatApp\\wwwroot\\",
+      "BasePath": "_content/ChatApp",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\LabFiles\\ChatGPT\\ChatApp_CSharp_Enhanced\\ChatApp\\wwwroot\\js\\chat.js",
+      "SourceId": "ChatApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\LabFiles\\ChatGPT\\ChatApp_CSharp_Enhanced\\ChatApp\\wwwroot\\",
+      "BasePath": "_content/ChatApp",
+      "RelativePath": "js/chat.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\chat.js"
+    }
+  ]
+}

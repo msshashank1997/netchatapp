@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyChatApp</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .chat-container {
+            max-width: 800px;
+            width: 100%;
+            height: 80vh;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        .chat-header {
+            text-align: center;
+            margin-bottom: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            color: #333;
+        }
+        .chat-messages {
+            flex: 1;
+            overflow-y: auto;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            background-color: #fafafa;
+            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .chat-message {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            background-color: #fff; /* Changed background color to white */
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .chat-message .message-content {
+            flex: 1;
+            background-color: #e1ffc7; /* Applied green background color to message content */
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .chat-message .message-time {
+            margin-left: 10px;
+            font-size: 0.8em;
+            color: #777;
+        }
+        .chat-input {
+            display: flex;
+            gap: 10px;
+        }
+        .input-user, .input-message {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .send-button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .send-button:hover {
+            background-color: #0056b3;
+        }
+        .chat-footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <h1>Welcome to MyChatApp</h1>
+        </header>
+        <div class="chat-messages" id="messagesList">
+            <!-- Example message removed -->
+        </div>
+        <div class="chat-input">
+            <input type="text" id="userInput" placeholder="Enter your name" class="input-user" />
+            <input type="text" id="messageInput" placeholder="Type a message..." class="input-message" />
+            <button id="sendButton" class="send-button">Send</button>
+        </div>
+        <footer class="chat-footer">
+            <p>&copy; 2023 Chat App. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/3.1.0/signalr.min.js"></script>
+    <script src="js/chat.js"></script>
+
+</body>
+</html>
